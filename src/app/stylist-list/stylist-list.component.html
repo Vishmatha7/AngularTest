@@ -1,0 +1,15 @@
+<p>
+  stylist-list works!
+</p>
+  <div>
+    <ul>
+      <li *ngFor='let stylist of stylists' (click)="onSelect(stylist)">
+        <h4>{{ stylist.id}} {{ stylist.name | uppercase}}</h4>
+      </li>
+    </ul>
+    <div class= "result"><label> id:</label>{{ selectedStylist.id}}
+      <label>name:</label>{{selectedStylist.name}}
+      <label>job:</label>{{selectedStylist.job}}
+    </div>  
+  </div>
+

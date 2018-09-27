@@ -1,0 +1,10 @@
+li{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: rgb(109, 72, 72);
+    background-color: rgb(250, 198, 206);
+    width: 50%;
+    border-radius: 5px;
+    border-color: darkred;
+}
